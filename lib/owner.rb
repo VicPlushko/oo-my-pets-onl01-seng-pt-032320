@@ -50,8 +50,8 @@ class Owner
  end
  
  def list_pets
-   self.dogs.name
-   self.cats.name
+   self.dogs
+   self.cats
  end
  
  def self.all
