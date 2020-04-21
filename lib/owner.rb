@@ -49,7 +49,7 @@ class Owner
  end
  
  def list_pets
-   self.all
+   self.dogs.cats.all
  end
  
  def self.all
